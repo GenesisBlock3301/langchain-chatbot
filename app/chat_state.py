@@ -14,8 +14,8 @@ from .db import client, DB_NAME, MONGO_URI
 
 # Environment variables (consider using .env for security)
 os.environ["LANGSMITH_TRACING"] = "true"
-os.environ["LANGSMITH_API_KEY"] = "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"
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAq0dtKCqBl9vxZDuGAaoeYwTmaE2lRndw"
+os.environ["LANGSMITH_API_KEY"] = "api_key"
+os.environ["GOOGLE_API_KEY"] = "api_key"
 
 # Initialize chat model
 model = init_chat_model(
